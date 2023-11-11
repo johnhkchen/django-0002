@@ -1,6 +1,6 @@
 {
-	"name": "Python 3.11",
-	"image": "mcr.microsoft.com/devcontainers/python:3.11",
+	"name": "Django 5 and Python 3.12",
+	"image": "mcr.microsoft.com/devcontainers/python:3.12",
 
 	"features": {
 		// "ghcr.io/devcontainers/features/github-cli:1": {},
