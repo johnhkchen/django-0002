@@ -3,6 +3,9 @@ format_test_lint:
     black .
     python manage.py test polls
 
+install:
+    pip3 install --user -r requirements.txt
+
 migrate:
     python manage.py migrate
 
