@@ -1,6 +1,7 @@
 format_test_lint:
+    ruff check --fix .
     black .
-    pytest
+    python manage.py test polls
 
 migrate:
     python manage.py migrate
